@@ -45,7 +45,7 @@
                       echo "<div class='row'>";
                       while($row = mysqli_fetch_array($result))
               {
-                          echo "<div class='card col m-2 shadow'>";
+                          echo "<div class='card col-md-3 m-1 shadow'>";
                               echo "<img style='object-fit: contain;' src='https://t.uncledesk.com/saasbox/resources/jpg/best-selling-online-products-in-nigeria__96052fec64d93220dc6dcb6f257a4940.jpg' class='card-img-top' alt='...'>";
                               echo "<div class='card-body'>";
                                   echo "<h5 class='card-title'>". $row['item']."</h5>";
