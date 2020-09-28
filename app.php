@@ -51,7 +51,7 @@
                               echo "<div class='card-body'>";
                                   echo "<h5 class='card-title'>". $row['item']."</h5>";
                                   echo "<p class='card-text'>Quantity:" . $row['quantity'] . "</p>";
-                                  echo "<p class='card-text'>Price:" . $row['quantity'] . "</p>";
+                                  echo "<p class='card-text'>Price:" . $row['price'] . "</p>";
                                   echo "<a href='#' class='btn btn-primary'>Go somewhere</a>";
                               echo "</div>";
                           echo "</div>";
