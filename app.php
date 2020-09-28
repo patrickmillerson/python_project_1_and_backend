@@ -47,7 +47,7 @@
                       while($row = mysqli_fetch_array($result))
               {
                           echo "<div class='card col-md-3 m-1 shadow'>";
-                              echo "<img style='object-fit: contain;' src=' ". $row['img_url'] ." ' class='card-img-top' alt='...'>";
+                              echo "<img style='object-fit: contain;' src='".$row['img_url']." ' class='card-img-top' alt='...'>";
                               echo "<div class='card-body'>";
                                   echo "<h5 class='card-title'>". $row['item']."</h5>";
                                   echo "<p class='card-text'>Quantity:" . $row['quantity'] . "</p>";
