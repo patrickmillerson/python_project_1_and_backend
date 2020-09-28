@@ -39,7 +39,8 @@
               echo "Failed to connect to MySQL: " . mysqli_connect_error();
               }
 
-              $result = mysqli_query($con,"SELECT * FROM store");
+            //   $result = mysqli_query($con,"SELECT * FROM store");
+            $result = mysqli_query($con,"SELECT * FROM store2");
 
                   echo "<div class='container'>";
                       echo "<div class='row'>";
