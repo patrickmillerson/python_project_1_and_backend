@@ -8,7 +8,7 @@
   </head>
   <body>
   <nav class="navbar navbar-expand-lg navbar-primary bg-primary pb-3">
-        <a class="navbar-brand" href="index.php">My E-Shop</a>
+        <a class="navbar-brand text-light" href="index.php">My E-Shop</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -16,10 +16,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.php">Home</a>
+                    <a class="nav-link text-light" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link text-light" href="contacts.html">Contact Us</a>
                 </li>
             </ul>
         </div>
