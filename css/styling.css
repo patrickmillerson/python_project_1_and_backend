@@ -1,0 +1,5 @@
+body {
+    background: url("background1.jpeg") no-repeat center center !important;
+    background-attachment: fixed !important;
+    background-color: red !important;
+}
