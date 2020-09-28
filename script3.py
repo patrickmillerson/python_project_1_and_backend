@@ -8,10 +8,10 @@ def my_store_app():
     def check_conn():
         try:
             connection = mysql.connector.connect(
-                host='sql9.freemysqlhosting.net',
-                database='sql9366716',
-                user='sql9366716',
-                password='Z3775PZre6')
+                host='pone bo host aki',
+                database='aki ta bo database name',
+                user='aki ta bo user name',
+                password='aki ta bo database password')
             if connection.is_connected():
                 db_Info = connection.get_server_info()
                 print("Connected to MySQL Server version ", db_Info)
